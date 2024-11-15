@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tyler, the Creator Super Fan Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="half">
+      <div class="column">
+        <div class="reset option topcolumn-color center-content">
+          <img src="images/other-buttons/back.png" onclick="resetall()" />
+        </div>
+        <div class="name topcolumn-color center-content">
+          <img src="images/Words/tylername.png" id="name" />
+        </div>
+      </div>
+      <div class="square option leftside-color center-content" id="vbox">
+        <iframe
+          id="vid"
+          width="373"
+          height="280"
+          src="https://www.youtube.com/embed/xxhUCXWmA2k"
+          title="ZIPLOC"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="column center-content leftside-color" id="info-box">
+        <img src="images/Words/background info.png" id="info" />
+      </div>
+    </div>
+    <div class="half2">
+      <div class="row">
+        <div class="box option center-content cmiygl" id="cmiygl-box">
+          <img
+            src="images/album-covers/Tyler-the-Creator.webp"
+            onclick="cmiygl()"
+            id="cmiygl"
+          />
+        </div>
+        <div class="box option center-content pink" id="igor-box">
+          <img
+            src="images/album-covers/60290320_1159152267600768_6828721593724698624_n.jpg"
+            id="igor"
+            onclick="igor()"
+          />
+        </div>
+        <div class="box option center-content flower" id="fb-box">
+          <img
+            src="images/album-covers/flowerboy.jpeg"
+            id="flower"
+            onclick="fb()"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="box option cherry center-content" id="cb-box">
+          <img
+            src="images/album-covers/Cherry_Bomb_Tyler_the_Creator.png"
+            id="cherry"
+            onclick="cb()"
+          />
+        </div>
+        <div class="box option center-content wolf" id="wolf-box">
+          <img
+            src="images/album-covers/7b347e868153698259ff6386e28aa019--concert-posters-music-posters.jpg"
+            id="wolf"
+            onclick="wolf()"
+          />
+        </div>
+        <div class="box option center-content goblin" id="goblin-box">
+          <img
+            src="images/album-covers/goblin.jpg"
+            id="goblin"
+            onclick="goblin()"
+          />
+        </div>
+      </div>
+      <audio
+        src="Audios/CALL ME IF YOU GET LOST (SOUND EFFECT & LOGO).mp3"
+        id="callmesound"
+      ></audio>
+      <audio src="Audios/kiss.mp3" id="fbsound"></audio>
+      <audio src="Audios/igorsound.mp3" id="igorsound"></audio>
+      <audio src="Audios/wolfsound.mp3" id="wolfsound"></audio>
+      <audio
+        src="Audios/Plants VS. Zombies Cherry Bomb POW! Sound Effect.mp3"
+        id="cbsound"
+      ></audio>
+      <audio
+        src="Audios/Tyler The Creator - SIKE Sound Effect.mp3"
+        id="gsound"
+      ></audio>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
